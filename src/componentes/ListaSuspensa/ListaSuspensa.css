@@ -1,0 +1,18 @@
+.lista label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.lista select {
+    background-color: #fff;
+    /*ADICIONAR O SOMBRIADO*/
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    /*PEGA 100% DA TELA, OU SEJA, QUEM VAI DIZER O TAMANHO VAI SER O TAMANHO DO COMPONENTE PAI*/
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    /*PARA ELE TER O TAMANHO DE 100% LEVANDO EM CONSIDERAÇÃO O PADDING E MARGING*/
+    box-sizing: border-box;
+}
